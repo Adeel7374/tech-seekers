@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://YOUR_DOMAIN/sitemap.xml
+Sitemap: https://techseekers.github.io/tech-seekers/sitemap.xml
