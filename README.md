@@ -2,6 +2,10 @@
 
 A production-ready company portfolio website for **Tech Seekers**, a mobile app development company specializing in Android and Flutter applications.
 
+## 🌐 Live Demo
+
+**[Visit the live website →](https://adeel7374.github.io/tech-seekers/)**
+
 ## 🚀 Tech Stack
 
 - **React 18** + **Vite**
