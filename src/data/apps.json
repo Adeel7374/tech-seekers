@@ -1,0 +1,77 @@
+[
+  {
+    "id": 1,
+    "name": "LED Flashlight: Color & Strobe",
+    "category": "Utility",
+    "description": "A bright LED flashlight with color modes, strobe light, shake activation, SOS mode, and screen torch controls.",
+    "shortDesc": "LED flashlight with color & strobe modes",
+    "playStoreUrl": "https://play.google.com/store/apps/details?id=com.techseekers.torchlight",
+    "icon": "../assets/flashlight.png",
+    "screenshots": [
+      "../assets/flashlight-1.jpg",
+      "../assets/flashlight-2.jpg",
+      "../assets/flashlight-3.jpg"
+    ],
+    "color": "#f59e0b"
+  },
+  {
+    "id": 2,
+    "name": "Video Downloader No Watermark",
+    "category": "Utility",
+    "description": "Download videos in HD without watermarks, track progress live, and save reels, shorts, stories, tweets, and status videos offline.",
+    "shortDesc": "HD video downloader without watermarks",
+    "playStoreUrl": "https://play.google.com/store/apps/details?id=com.techseekers.video_downloader.video_saver.all_video_downloader.private_downloader",
+    "icon": "../assets/video_downloader.jpg",
+    "screenshots": [
+      "../assets/video-1.jpg",
+      "../assets/video-2.jpg",
+      "../assets/video-3.jpg"
+    ],
+    "color": "#8b5cf6"
+  },
+  {
+    "id": 3,
+    "name": "PDF Converter - Word to PDF",
+    "category": "Productivity",
+    "description": "Convert photos, images, scans, and documents into editable or sharable PDFs with a simple all-in-one PDF toolkit.",
+    "shortDesc": "Convert images & documents to PDF",
+    "playStoreUrl": "https://play.google.com/store/apps/details?id=com.pdfconverter.editor.imagestopdf.maker.techseekers",
+    "icon": "../assets/pdf.png",
+    "screenshots": [
+      "../assets/pdf-1.jpg",
+      "../assets/pdf-2.jpg",
+      "../assets/pdf-3.jpg"
+    ],
+    "color": "#22d3ee"
+  },
+  {
+    "id": 4,
+    "name": "BMI Calculator",
+    "category": "Health",
+    "description": "A fast and easy BMI calculator with history tracking, clean results, and a simple modern interface.",
+    "shortDesc": "Fast BMI calculator with history",
+    "playStoreUrl": "https://play.google.com/store/apps/details?id=com.techseekers.bmicalculator",
+    "icon": "../assets/bmi_calculator.png",
+    "screenshots": [
+      "../assets/bmi-1.jpg",
+      "../assets/bmi-2.jpg",
+      "../assets/bmi-3.jpg"
+    ],
+    "color": "#10b981"
+  },
+  {
+    "id": 5,
+    "name": "QR Code Scanner",
+    "category": "Utility",
+    "description": "Scan and create QR codes and barcodes with instant recognition, batch scanning, offline support, and dark mode.",
+    "shortDesc": "QR & barcode scanner with offline support",
+    "playStoreUrl": "https://play.google.com/store/apps/details?id=com.techseekers.qrscanner",
+    "icon": "../assets/qr_code.png",
+    "screenshots": [
+      "../assets/qr-1.png",
+      "../assets/qr-2.png",
+      "../assets/qr-3.png"
+    ],
+    "color": "#6366f1"
+  }
+]

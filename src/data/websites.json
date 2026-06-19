@@ -1,0 +1,15 @@
+[
+  {
+    "id": 1,
+    "name": "GetMortgageCalc",
+    "title": "Mortgage Calculator",
+    "domain": "getmortgagecalc.com",
+    "category": "Finance",
+    "description": "Free mortgage calculator for UK, USA, Canada & Australia. Estimate affordability, monthly repayments, amortization, and stamp duty — all in your browser with no data stored.",
+    "shortDesc": "Multi-country mortgage calculator",
+    "url": "https://www.getmortgagecalc.com/",
+    "image": "web-img",
+    "tags": ["Next.js", "React", "Tailwind CSS", "Mobile Responsive"],
+    "color": "#3b82f6"
+  }
+]
