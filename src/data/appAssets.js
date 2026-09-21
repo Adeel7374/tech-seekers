@@ -3,6 +3,10 @@ import videoDownloaderIcon from '../assets/video_downloader.jpg'
 import pdfIcon from '../assets/pdf.png'
 import bmiIcon from '../assets/bmi_calculator.png'
 import qrIcon from '../assets/qr_code.png'
+import watersortIcon from '../assets/watersort-icon.png'
+import blockblastIcon from '../assets/blockblast-icon.png'
+import islamicQuizIcon from '../assets/islamic-quiz-icon.png'
+import clapfindIcon from '../assets/clapfind-icon.png'
 
 import flashlight1 from '../assets/flashlight-1.jpg'
 import flashlight2 from '../assets/flashlight-2.jpg'
@@ -19,6 +23,10 @@ import bmi3 from '../assets/bmi-3.jpg'
 import qr1 from '../assets/qr-1.png'
 import qr2 from '../assets/qr-2.png'
 import qr3 from '../assets/qr-3.png'
+import watersort1 from '../assets/watersort-1.png'
+import blockblast1 from '../assets/blockblast-1.png'
+import islamicQuiz1 from '../assets/islamic-quiz-1.png'
+import clapfind1 from '../assets/clapfind-1.png'
 
 export const iconMap = {
   'LED Flashlight: Color & Strobe': flashlightIcon,
@@ -26,6 +34,10 @@ export const iconMap = {
   'PDF Converter - Word to PDF': pdfIcon,
   'BMI Calculator': bmiIcon,
   'QR Code Scanner': qrIcon,
+  'Water Sort Puzzle: AquaPour': watersortIcon,
+  'Block Blast: Neon Puzzle': blockblastIcon,
+  'Islamic Quiz: Quran & Hadith': islamicQuizIcon,
+  'ClapFind: Clap to Find Phone': clapfindIcon,
 }
 
 const screenshotMap = {
@@ -44,6 +56,10 @@ const screenshotMap = {
   '../assets/qr-1.png': qr1,
   '../assets/qr-2.png': qr2,
   '../assets/qr-3.png': qr3,
+  '../assets/watersort-1.png': watersort1,
+  '../assets/blockblast-1.png': blockblast1,
+  '../assets/islamic-quiz-1.png': islamicQuiz1,
+  '../assets/clapfind-1.png': clapfind1,
 }
 
 export function getAppIcon(app) {

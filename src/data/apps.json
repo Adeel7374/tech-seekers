@@ -73,5 +73,57 @@
       "../assets/qr-3.png"
     ],
     "color": "#6366f1"
+  },
+  {
+    "id": 6,
+    "name": "Water Sort Puzzle: AquaPour",
+    "category": "Puzzle",
+    "description": "Pour colored water into tubes and sort every drop in a calm color sorting puzzle with thousands of levels.",
+    "shortDesc": "A calm water sorting puzzle",
+    "playStoreUrl": "https://play.google.com/store/apps/details?id=com.techseekers.watersort.colorpuzzle",
+    "icon": "../assets/watersort-icon.png",
+    "screenshots": [
+      "../assets/watersort-1.png"
+    ],
+    "color": "#14b8a6"
+  },
+  {
+    "id": 7,
+    "name": "Block Blast: Neon Puzzle",
+    "category": "Puzzle",
+    "description": "Drag neon blocks, clear lines, and chain glowing combos in this colorful puzzle classic.",
+    "shortDesc": "Neon blocks and glowing combos",
+    "playStoreUrl": "https://play.google.com/store/apps/details?id=com.neonforge.blockblast",
+    "icon": "../assets/blockblast-icon.png",
+    "screenshots": [
+      "../assets/blockblast-1.png"
+    ],
+    "color": "#ec4899"
+  },
+  {
+    "id": 8,
+    "name": "Islamic Quiz: Quran & Hadith",
+    "category": "Education",
+    "description": "Test your Islamic knowledge with quizzes covering Quran, Hadith, Fiqh, Seerah, and Islamic history.",
+    "shortDesc": "Quizzes on Quran, Hadith and Seerah",
+    "playStoreUrl": "https://play.google.com/store/apps/details?id=com.techseekers.quranhadithquiz",
+    "icon": "../assets/islamic-quiz-icon.png",
+    "screenshots": [
+      "../assets/islamic-quiz-1.png"
+    ],
+    "color": "#22c55e"
+  },
+  {
+    "id": 9,
+    "name": "ClapFind: Clap to Find Phone",
+    "category": "Utility",
+    "description": "Find your phone by clap or whistle, even when it is on silent, with a quick and reliable alert.",
+    "shortDesc": "Find your phone by clap or whistle",
+    "playStoreUrl": "https://play.google.com/store/apps/details?id=com.techseekers.clapfind.phonefinder",
+    "icon": "../assets/clapfind-icon.png",
+    "screenshots": [
+      "../assets/clapfind-1.png"
+    ],
+    "color": "#f97316"
   }
 ]
