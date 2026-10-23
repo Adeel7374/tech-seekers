@@ -222,6 +222,45 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Concept Work */}
+      <section className="py-20">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6">
+          <SectionHeader
+            eyebrow="Concept Work"
+            title="Demo Apps for Restaurants and Salons"
+            subtitle="Concept demos built to show what an ordering or booking app can look like for a small business. These are fictional demos, not client projects."
+          />
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
+            <Tilt3D>
+              <a
+                href="https://github.com/Adeel7374/techseekers-flutter-apps/tree/main/restaurant-ordering"
+                target="_blank"
+                rel="noreferrer"
+                className="glass rounded-2xl p-6 block card-hover"
+              >
+                <span className="text-3xl">🍽️</span>
+                <h3 className="font-display font-bold text-white mt-3 mb-2">The Northern Fork — Restaurant Ordering</h3>
+                <p className="text-slate-400 text-sm leading-relaxed">Concept demo: menu by category, basket, pickup and delivery, confirmation. Flutter, one codebase for Android and iOS.</p>
+                <p className="text-brand-400 text-sm font-semibold mt-4">View code on GitHub →</p>
+              </a>
+            </Tilt3D>
+            <Tilt3D>
+              <a
+                href="https://github.com/Adeel7374/techseekers-flutter-apps/tree/main/booking-app"
+                target="_blank"
+                rel="noreferrer"
+                className="glass rounded-2xl p-6 block card-hover"
+              >
+                <span className="text-3xl">✂️</span>
+                <h3 className="font-display font-bold text-white mt-3 mb-2">Glow Studio — Salon Booking</h3>
+                <p className="text-slate-400 text-sm leading-relaxed">Concept demo: service, day and time-slot selection, booking confirmation. Flutter, one codebase for Android and iOS.</p>
+                <p className="text-brand-400 text-sm font-semibold mt-4">View code on GitHub →</p>
+              </a>
+            </Tilt3D>
+          </div>
+        </div>
+      </section>
+
       {/* Technology Stack */}
       <section className="py-20 bg-surface2">
         <div className="max-w-6xl mx-auto px-4 sm:px-6">
