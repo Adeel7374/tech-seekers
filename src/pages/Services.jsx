@@ -39,6 +39,18 @@ const services = [
     desc: 'Ongoing support, bug fixes, OS compatibility updates, and performance optimization to keep your app running smoothly.',
     tags: ['Support', 'Updates', 'Monitoring'],
   },
+  {
+    icon: '🏪',
+    title: 'Business Apps',
+    desc: 'Ordering, booking, and payment apps for restaurants, clinics, salons, and service businesses — built with Flutter for Android and iOS, and submitted to both stores.',
+    tags: ['Flutter', 'Android', 'iOS', 'Payments'],
+  },
+  {
+    icon: '🗄️',
+    title: 'Backend Development',
+    desc: 'Backends that power your app: .NET, Laravel, Node.js, and Go, with Firebase and Supabase for realtime data and auth.',
+    tags: ['.NET', 'Laravel', 'Node.js', 'Go', 'Supabase', 'Firebase'],
+  },
 ]
 
 export default function Services() {
