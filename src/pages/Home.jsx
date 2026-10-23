@@ -240,7 +240,7 @@ export default function Home() {
               >
                 <span className="text-3xl">🍽️</span>
                 <h3 className="font-display font-bold text-white mt-3 mb-2">The Northern Fork — Restaurant Ordering</h3>
-                <p className="text-slate-400 text-sm leading-relaxed">Concept demo: menu by category, basket, pickup and delivery, confirmation. Flutter, one codebase for Android and iOS.</p>
+                <p className="text-slate-400 text-sm leading-relaxed">Concept demo: menu by category, basket, pickup and delivery, confirmation. Works on Android and iOS.</p>
                 <p className="text-brand-400 text-sm font-semibold mt-4">View code on GitHub →</p>
               </a>
             </Tilt3D>
@@ -253,7 +253,7 @@ export default function Home() {
               >
                 <span className="text-3xl">✂️</span>
                 <h3 className="font-display font-bold text-white mt-3 mb-2">Glow Studio — Salon Booking</h3>
-                <p className="text-slate-400 text-sm leading-relaxed">Concept demo: service, day and time-slot selection, booking confirmation. Flutter, one codebase for Android and iOS.</p>
+                <p className="text-slate-400 text-sm leading-relaxed">Concept demo: service, day and time-slot selection, booking confirmation. Works on Android and iOS.</p>
                 <p className="text-brand-400 text-sm font-semibold mt-4">View code on GitHub →</p>
               </a>
             </Tilt3D>
