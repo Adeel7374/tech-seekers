@@ -230,12 +230,42 @@ export default function Home() {
             title="The Myriad App — Live on Both Stores"
             subtitle="A real student-living app built for The Myriad in Dubai and Muscat. Residents book accommodation, manage their home and services, and stay up to date with community events — live on Android and iOS."
           />
-          <div className="glass rounded-2xl p-6">
-            <h3 className="font-display font-bold text-white mb-2">The Myriad App</h3>
-            <p className="text-slate-400 text-sm leading-relaxed mb-4">Book your accommodation, manage resident services, facility bookings and requests, and socialise with peers through events and news updates.</p>
-            <div className="flex flex-wrap gap-3">
-              <a href="https://apps.apple.com/us/app/the-myriad-app/id1599265457" target="_blank" rel="noreferrer" className="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-brand-600 hover:bg-brand-500 text-white text-sm font-semibold transition-colors">Download on the App Store →</a>
-              <a href="https://play.google.com/store/apps/details?id=com.bits.themyriadmuscat&hl=en" target="_blank" rel="noreferrer" className="inline-flex items-center gap-2 px-6 py-3 rounded-xl border border-brand-500/40 hover:border-brand-500 text-brand-400 hover:text-white hover:bg-brand-600 text-sm font-semibold transition-all">Get it on Google Play →</a>
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
+            <div className="glass rounded-2xl p-6">
+              <h3 className="font-display font-bold text-white mb-2">The Myriad App</h3>
+              <p className="text-slate-400 text-sm leading-relaxed mb-4">Student living in Dubai and Muscat. Residents book accommodation, manage home services and facility bookings, and stay up to date with community events and news.</p>
+              <div className="flex flex-wrap gap-3">
+                <a href="https://apps.apple.com/us/app/the-myriad-app/id1599265457" target="_blank" rel="noreferrer" className="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-brand-600 hover:bg-brand-500 text-white text-sm font-semibold transition-colors">App Store →</a>
+                <a href="https://play.google.com/store/apps/details?id=com.bits.themyriadmuscat&hl=en" target="_blank" rel="noreferrer" className="inline-flex items-center gap-2 px-6 py-3 rounded-xl border border-brand-500/40 hover:border-brand-500 text-brand-400 hover:text-white hover:bg-brand-600 text-sm font-semibold transition-all">Google Play →</a>
+              </div>
+            </div>
+            <div className="glass rounded-2xl p-6">
+              <h3 className="font-display font-bold text-white mb-2">Tyms</h3>
+              <p className="text-slate-400 text-sm leading-relaxed mb-4">Food ordering and delivery from local restaurants. Browse dishes, pay securely, track orders live, and earn reward points for free meals.</p>
+              <a href="https://play.google.com/store/apps/details?id=com.tyms.tyms&hl=en" target="_blank" rel="noreferrer" className="inline-flex items-center gap-2 px-6 py-3 rounded-xl border border-brand-500/40 hover:border-brand-500 text-brand-400 hover:text-white hover:bg-brand-600 text-sm font-semibold transition-all">Google Play →</a>
+            </div>
+            <div className="glass rounded-2xl p-6">
+              <h3 className="font-display font-bold text-white mb-2">Fiscally</h3>
+              <p className="text-slate-400 text-sm leading-relaxed mb-4">Financial literacy for kids and teens aged 10 to 18. Video lessons and quizzes on earning, saving and investing, plus a budget builder, expense tracker and wants-versus-needs calculator, with parent progress monitoring.</p>
+              <a href="https://play.google.com/store/apps/details?id=com.fiscallyapp.children&hl=en" target="_blank" rel="noreferrer" className="inline-flex items-center gap-2 px-6 py-3 rounded-xl border border-brand-500/40 hover:border-brand-500 text-brand-400 hover:text-white hover:bg-brand-600 text-sm font-semibold transition-all">Google Play →</a>
+            </div>
+            <div className="glass rounded-2xl p-6">
+              <h3 className="font-display font-bold text-white mb-2">Waselni</h3>
+              <p className="text-slate-400 text-sm leading-relaxed mb-4">Ride-hailing live in Medina, Saudi Arabia. Riders book in a few taps, connect with nearby drivers, and pay a fixed, transparent fare of 14 SAR per trip. The driver app is live too.</p>
+              <div className="flex flex-wrap gap-3">
+                <a href="https://play.google.com/store/apps/details?id=sa.waselni.users&hl=en_US" target="_blank" rel="noreferrer" className="inline-flex items-center gap-2 px-6 py-3 rounded-xl border border-brand-500/40 hover:border-brand-500 text-brand-400 hover:text-white hover:bg-brand-600 text-sm font-semibold transition-all">Rider app →</a>
+                <a href="https://play.google.com/store/apps/details?id=sa.waselni.driver&hl=en_US" target="_blank" rel="noreferrer" className="inline-flex items-center gap-2 px-6 py-3 rounded-xl border border-brand-500/40 hover:border-brand-500 text-brand-400 hover:text-white hover:bg-brand-600 text-sm font-semibold transition-all">Driver app →</a>
+              </div>
+            </div>
+            <div className="glass rounded-2xl p-6">
+              <h3 className="font-display font-bold text-white mb-2">PayProNext</h3>
+              <p className="text-slate-400 text-sm leading-relaxed mb-4">Payroll management software built for startups and small businesses. Streamlines employee salary processing and reporting.</p>
+              <a href="https://paypronext.com/" target="_blank" rel="noreferrer" className="inline-flex items-center gap-2 px-6 py-3 rounded-xl border border-brand-500/40 hover:border-brand-500 text-brand-400 hover:text-white hover:bg-brand-600 text-sm font-semibold transition-all">Visit website →</a>
+            </div>
+            <div className="glass rounded-2xl p-6">
+              <h3 className="font-display font-bold text-white mb-2">67Challenger</h3>
+              <p className="text-slate-400 text-sm leading-relaxed mb-4">Learning through play for children from kindergarten to grade 8. Daily 67-second challenges, missions, streaks and badges in maths, science, critical thinking, coding and AI, with a parent dashboard.</p>
+              <a href="https://play.google.com/store/apps/details?id=com.jjlolo.challenge67&hl=en_US" target="_blank" rel="noreferrer" className="inline-flex items-center gap-2 px-6 py-3 rounded-xl border border-brand-500/40 hover:border-brand-500 text-brand-400 hover:text-white hover:bg-brand-600 text-sm font-semibold transition-all">Google Play →</a>
             </div>
           </div>
         </div>
@@ -262,6 +292,7 @@ export default function Home() {
                 <p className="text-slate-400 text-sm leading-relaxed">Concept demo: menu by category, basket, pickup and delivery, confirmation. Works on Android and iOS.</p>
                 <p className="text-brand-400 text-sm font-semibold mt-4">View code on GitHub →</p>
               </a>
+              <a href="/demos/restaurant-ordering/" className="inline-flex items-center gap-2 px-6 py-3 mt-4 rounded-xl bg-brand-600 hover:bg-brand-500 text-white text-sm font-semibold transition-colors">Try the live demo →</a>
             </Tilt3D>
             <Tilt3D>
               <a
@@ -275,6 +306,7 @@ export default function Home() {
                 <p className="text-slate-400 text-sm leading-relaxed">Concept demo: service, day and time-slot selection, booking confirmation. Works on Android and iOS.</p>
                 <p className="text-brand-400 text-sm font-semibold mt-4">View code on GitHub →</p>
               </a>
+              <a href="/demos/booking-app/" className="inline-flex items-center gap-2 px-6 py-3 mt-4 rounded-xl bg-brand-600 hover:bg-brand-500 text-white text-sm font-semibold transition-colors">Try the live demo →</a>
             </Tilt3D>
           </div>
         </div>
