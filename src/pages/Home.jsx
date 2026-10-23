@@ -30,6 +30,11 @@ const techs = [
   { name: 'React', icon: '⚛️' },
   { name: 'React Native', icon: '📲' },
   { name: 'SQLite', icon: '🗄️' },
+  { name: 'iOS', icon: '🍎' },
+  { name: '.NET', icon: '🟪' },
+  { name: 'Laravel', icon: '🟥' },
+  { name: 'Go', icon: '🐹' },
+  { name: 'Supabase', icon: '⚡' },
 ]
 
 const reasons = [
