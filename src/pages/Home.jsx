@@ -222,6 +222,25 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Real Client Work */}
+      <section className="py-20 bg-surface2">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6">
+          <SectionHeader
+            eyebrow="Real Client Work"
+            title="The Myriad App — Live on Both Stores"
+            subtitle="A real student-living app built for The Myriad in Dubai and Muscat. Residents book accommodation, manage their home and services, and stay up to date with community events — live on Android and iOS."
+          />
+          <div className="glass rounded-2xl p-6">
+            <h3 className="font-display font-bold text-white mb-2">The Myriad App</h3>
+            <p className="text-slate-400 text-sm leading-relaxed mb-4">Book your accommodation, manage resident services, facility bookings and requests, and socialise with peers through events and news updates.</p>
+            <div className="flex flex-wrap gap-3">
+              <a href="https://apps.apple.com/us/app/the-myriad-app/id1599265457" target="_blank" rel="noreferrer" className="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-brand-600 hover:bg-brand-500 text-white text-sm font-semibold transition-colors">Download on the App Store →</a>
+              <a href="https://play.google.com/store/apps/details?id=com.bits.themyriadmuscat&hl=en" target="_blank" rel="noreferrer" className="inline-flex items-center gap-2 px-6 py-3 rounded-xl border border-brand-500/40 hover:border-brand-500 text-brand-400 hover:text-white hover:bg-brand-600 text-sm font-semibold transition-all">Get it on Google Play →</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Concept Work */}
       <section className="py-20">
         <div className="max-w-6xl mx-auto px-4 sm:px-6">
