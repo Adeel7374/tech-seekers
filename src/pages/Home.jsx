@@ -6,6 +6,7 @@ import AppCard from '../components/AppCard'
 import WebsiteCard from '../components/WebsiteCard'
 import ParticleField from '../components/ParticleField'
 import OrbitalShowcase from '../components/OrbitalShowcase'
+import Tilt3D from '../components/Tilt3D'
 import AnimatedCounter from '../components/AnimatedCounter'
 import apps from '../data/apps.json'
 import websites from '../data/websites.json'
@@ -35,6 +36,9 @@ const techs = [
   { name: 'Laravel', icon: '🟥' },
   { name: 'Go', icon: '🐹' },
   { name: 'Supabase', icon: '⚡' },
+  { name: 'AI-Powered Apps', icon: '🤖' },
+  { name: 'AI Websites', icon: '🌐' },
+  { name: 'LLM APIs', icon: '🧠' },
 ]
 
 const reasons = [
@@ -67,7 +71,7 @@ export default function Home() {
     <>
       <Helmet>
         <title>Tech Seekers | Mobile App Development Company</title>
-        <meta name="description" content="Tech Seekers develops innovative Android and Flutter applications focused on productivity, utility, and digital solutions." />
+        <meta name="description" content="Tech Seekers develops innovative Android and Flutter applications, AI-powered apps and AI websites focused on productivity, utility, and digital solutions." />
       </Helmet>
 
       {/* Hero */}
@@ -103,14 +107,17 @@ export default function Home() {
                 <span className="w-1.5 h-1.5 rounded-full bg-accent animate-pulse" />
                 Active Google Play Developer
               </span>
+              <span className="inline-flex items-center gap-2 font-mono text-xs font-medium text-white uppercase tracking-widest mb-6 ml-2 px-3 py-1.5 rounded-full bg-brand-600/30 border border-brand-500/40">
+                🤖 AI-Powered Apps &amp; Websites
+              </span>
 
-              <h1 className="font-display font-extrabold text-4xl sm:text-5xl md:text-6xl text-white leading-[1.1] mb-6">
+              <h1 className="hero-title font-display font-extrabold text-4xl sm:text-5xl md:text-6xl text-white leading-[1.1] mb-6">
                 Building High-Quality{' '}
                 <span className="gradient-text">Mobile Applications</span>
               </h1>
 
               <p className="text-slate-400 text-lg sm:text-xl leading-relaxed mb-8 max-w-2xl">
-                Tech Seekers develops Android applications that help users solve everyday problems through innovative and user-friendly mobile experiences.
+                Tech Seekers develops Android applications that help users solve everyday problems through innovative and user-friendly mobile experiences. We also build AI-powered apps and websites, with smart chatbots, AI agents, and features powered by leading LLM APIs.
               </p>
 
               <div className="flex flex-wrap gap-3">
@@ -129,14 +136,22 @@ export default function Home() {
               </div>
             </motion.div>
 
-            {/* Orbital showcase - desktop only */}
+            {/* 3D showcase - desktop only, tilts with the mouse */}
             <motion.div
               initial={{ opacity: 0, scale: 0.9 }}
               animate={{ opacity: 1, scale: 1 }}
               transition={{ delay: 0.3, duration: 0.6 }}
               className="hidden lg:block relative z-10"
             >
-              <OrbitalShowcase apps={orbitApps} size={240} />
+              <Tilt3D innerClassName="relative px-10 py-8">
+                <OrbitalShowcase apps={orbitApps} size={240} />
+                <div className="absolute -top-2 -left-2 z-20 glass rounded-xl px-3 py-2 text-xs font-semibold text-white float-slow">
+                  🤖 AI-Powered
+                </div>
+                <div className="absolute -bottom-2 -right-2 z-20 glass rounded-xl px-3 py-2 text-xs font-semibold text-white float-slower">
+                  ✨ Flutter · iOS · Android
+                </div>
+              </Tilt3D>
             </motion.div>
           </div>
 

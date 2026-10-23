@@ -28,4 +28,21 @@
     transform: translateY(-4px);
     box-shadow: 0 20px 40px rgba(99,102,241,0.15);
   }
+  /* 3D depth for the hero title */
+  .hero-title {
+    text-shadow: 0 2px 0 rgba(0, 0, 0, 0.35), 0 18px 45px rgba(99, 102, 241, 0.35);
+  }
+  /* Floating 3D badges around the hero showcase */
+  @keyframes float-y {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-12px); }
+  }
+  .float-slow {
+    animation: float-y 5s ease-in-out infinite;
+    box-shadow: 0 18px 40px rgba(99, 102, 241, 0.35);
+  }
+  .float-slower {
+    animation: float-y 7s ease-in-out infinite;
+    box-shadow: 0 18px 40px rgba(168, 85, 247, 0.3);
+  }
 }

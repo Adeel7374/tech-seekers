@@ -1,8 +1,15 @@
 import { Helmet } from 'react-helmet-async'
 import { motion } from 'framer-motion'
 import SectionHeader from '../components/SectionHeader'
+import Tilt3D from '../components/Tilt3D'
 
 const services = [
+  {
+    icon: '🤖',
+    title: 'AI-Powered Apps & Websites',
+    desc: 'Smart apps and websites with AI built in: chatbots, AI agents, smart search, and automation, powered by leading LLM APIs and integrated into Flutter apps or the web.',
+    tags: ['AI Agents', 'LLM APIs', 'Chatbots', 'Automation'],
+  },
   {
     icon: '📱',
     title: 'Mobile App Development',
@@ -58,7 +65,7 @@ export default function Services() {
     <>
       <Helmet>
         <title>Services | Tech Seekers</title>
-        <meta name="description" content="Tech Seekers offers mobile app development, Flutter development, UI/UX design, API integration, and app maintenance services." />
+        <meta name="description" content="Tech Seekers offers AI-powered apps and websites, mobile app development, Flutter development, UI/UX design, API integration, and app maintenance services." />
       </Helmet>
 
       <div className="pt-24 pb-20">
@@ -77,20 +84,21 @@ export default function Services() {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ delay: i * 0.08 }}
-                className="glass rounded-2xl p-6 card-hover flex flex-col gap-4"
               >
-                <div className="text-3xl">{s.icon}</div>
-                <div>
-                  <h3 className="font-display font-bold text-white text-lg mb-2">{s.title}</h3>
-                  <p className="text-slate-400 text-sm leading-relaxed">{s.desc}</p>
-                </div>
-                <div className="flex flex-wrap gap-2 mt-auto pt-2">
-                  {s.tags.map(tag => (
-                    <span key={tag} className="text-xs px-2 py-0.5 rounded-full bg-brand-500/15 text-brand-400 font-mono">
-                      {tag}
-                    </span>
-                  ))}
-                </div>
+                <Tilt3D className="h-full" innerClassName="glass rounded-2xl p-6 flex flex-col gap-4 h-full">
+                  <div className="text-3xl">{s.icon}</div>
+                  <div>
+                    <h3 className="font-display font-bold text-white text-lg mb-2">{s.title}</h3>
+                    <p className="text-slate-400 text-sm leading-relaxed">{s.desc}</p>
+                  </div>
+                  <div className="flex flex-wrap gap-2 mt-auto pt-2">
+                    {s.tags.map(tag => (
+                      <span key={tag} className="text-xs px-2 py-0.5 rounded-full bg-brand-500/15 text-brand-400 font-mono">
+                        {tag}
+                      </span>
+                    ))}
+                  </div>
+                </Tilt3D>
               </motion.div>
             ))}
           </div>
